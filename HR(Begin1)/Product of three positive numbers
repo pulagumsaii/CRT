@@ -1,0 +1,19 @@
+n1=int(input())
+n2=int(input())
+n3=int(input())
+def find(n1,n2,n3):
+    r=0
+    if(n1!=7 and n2!=7 and n3!=7):
+        r = n1*n2*n3
+    elif(n1==7):
+        r=n2*n3
+    elif(n2==7):
+        r=n3
+    else:
+        r=-1
+    return r
+
+res=find(n1,n2,n3)
+
+
+print(res)
