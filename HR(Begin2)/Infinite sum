@@ -1,0 +1,7 @@
+con=0
+while True:
+    n=int(input())
+    if n==-1:
+        break
+    con=con+n
+print(con)    
