@@ -1,0 +1,19 @@
+cs=int(input())
+j=int(input())
+
+def finds(cs,j):
+    hp=0
+    if(j==3):
+        hp=15
+    elif(j==4):
+        hp=7
+    elif(j==5):
+        hp=5
+    
+    ha=cs*hp//100
+    ns=cs+ha
+    return ns
+
+new=finds(cs,j)
+
+print(new)
